@@ -3,7 +3,7 @@
 Module 11 Challenge
 # Note Taker app
 
-Deployed: https://dannysanchez03.github.io/6ModChallenge/
+Deployed: https://intense-dusk-17481-573e679fcfd5.herokuapp.com/
 
 ## Description
 
