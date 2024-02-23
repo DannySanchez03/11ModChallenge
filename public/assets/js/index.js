@@ -11,7 +11,7 @@ if (window.location.pathname === '/notes') {
   noteText = document.querySelector('.note-textarea');
   saveNoteBtn = document.querySelector('.save-note');
   newNoteBtn = document.querySelector('.new-note');
-  clearBtn = document.querySelector('.clear-btn');
+  // clearBtn = document.querySelector('.clear-btn');
   noteList = document.querySelectorAll('.list-container .list-group');
 }
 
@@ -55,7 +55,7 @@ const deleteNote = (id) =>
 
 const renderActiveNote = () => {
   hide(saveNoteBtn);
-  hide(clearBtn);
+  // hide(clearBtn);
 
   if (activeNote.id) {
     show(newNoteBtn);
@@ -111,15 +111,15 @@ const handleNoteView = (e) => {
 // Sets the activeNote to and empty object and allows the user to enter a new note
 const handleNewNoteView = (e) => {
   activeNote = {};
-  show(clearBtn);
+  // show(clearBtn);
   renderActiveNote();
 };
 
 // Renders the appropriate buttons based on the state of the form
 const handleRenderBtns = () => {
-  show(clearBtn);
+  // show(clearBtn);
   if (!noteTitle.value.trim() && !noteText.value.trim()) {
-    hide(clearBtn);
+    // hide(clearBtn);
   } else if (!noteTitle.value.trim() || !noteText.value.trim()) {
     hide(saveNoteBtn);
   } else {
