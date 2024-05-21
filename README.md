@@ -1,13 +1,12 @@
-# 11 Express.js: Note Taker
+# Note Taker
 
-Module 11 Challenge
-# Note Taker app
+10th Challenge
 
-Deployed: https://my-note-taker-app-hehe-c865ff4718a5.herokuapp.com/
+Deployed: [here](https://my-note-taker-app-hehe-c865ff4718a5.herokuapp.com/)
 
 ## Description
 
-In this Module 11 Challenge we were given starter code for html, css, and the index.js, we had to hook this up to the backend, which envovled using and creating server.js, and installing express from npm. We had to upload this to a heroku server. This app can save notes and remove notes from its live server.
+In this 10th Challenge I was given starter code for html, css, and the index.js, I had to hook this up to the backend, which envovled using and creating server.js, and installing express from the npm. I had to upload this to a heroku server. This app can save notes and remove notes from its live server, server does restart and gets rid of all messages except the one that is always created when the DB is crated again.
 
 ## Installation
 
